@@ -1,0 +1,31 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "This is Namaste-React by Uday",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uday1251/namaste_react.git"
+  },
+  "keywords": [],
+  "author": "Uday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uday1251/namaste_react/issues"
+  },
+  "homepage": "https://github.com/uday1251/namaste_react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
+  }
+}
