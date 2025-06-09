@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import { CDN_URL } from "../utils/constants";
 import UserContext from "../utils/UserContext";
 const RestaurantCard = (props) => {
+ //console.log(props);
 const {resData} = props;
-
+ //console.log(resData);
  const {loggedInUser} = useContext(UserContext);
 //console.log(resData.info);
 // if (!resData?.info) {

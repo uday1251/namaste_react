@@ -104,6 +104,7 @@ const {loggedInUser,setUserName} = useContext(UserContext);
       </div>
       <div className="flex flex-wrap container">
         {filterResturant.map((resdata) =>
+        
           resdata?.info?.aggregatedDiscountInfoV3?.header ? (
             <ResWithOffer key={resdata.info.id} resData={resdata} />
           ) : (
